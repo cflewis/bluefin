@@ -1,5 +1,32 @@
 # Changelog
 
+## [2.7.0](https://github.com/ublue-os/bluefin/compare/v2.6.0...v2.7.0) (2024-05-09)
+
+
+### Features
+
+* Add back xwayland video bridge to all images ([#1264](https://github.com/ublue-os/bluefin/issues/1264)) ([91a67ad](https://github.com/ublue-os/bluefin/commit/91a67add37e7ed7586d8e96380f43a2b6d100cb5))
+* add configure-grub just command ([#1206](https://github.com/ublue-os/bluefin/issues/1206)) ([c330195](https://github.com/ublue-os/bluefin/commit/c33019532fc99f7a0d8cde4403e8d9b7155aeada))
+* Add GNOME Triple Buffering support in F40 Bluefin ([#1267](https://github.com/ublue-os/bluefin/issues/1267)) ([0d7929d](https://github.com/ublue-os/bluefin/commit/0d7929dbbe5a2b7eef5d37d1e070409e8ef63b5d))
+* **framework:** Add Framework 13 font scale fix and audio fixes ([#1259](https://github.com/ublue-os/bluefin/issues/1259)) ([c55bf3b](https://github.com/ublue-os/bluefin/commit/c55bf3bc833f1945e2bd7f9edf605415ab9088c8))
+* **framework:** Use older mt7921e firmware ([#1275](https://github.com/ublue-os/bluefin/issues/1275)) ([86f09d6](https://github.com/ublue-os/bluefin/commit/86f09d66646895c1e543c379c000b69daf7dfcd4))
+* improve devcontainer experience ([#1251](https://github.com/ublue-os/bluefin/issues/1251)) ([141cc1c](https://github.com/ublue-os/bluefin/commit/141cc1c22ae3f18398e6614bb8aae311cc9aa9fd))
+* **just:** add update-ng shortcut ([#1268](https://github.com/ublue-os/bluefin/issues/1268)) ([fec90f8](https://github.com/ublue-os/bluefin/commit/fec90f898f3e7d214dc4542b60b2f01a59357f5e))
+
+
+### Bug Fixes
+
+* add missing backup flatpaks dejadup and pika ([#1266](https://github.com/ublue-os/bluefin/issues/1266)) ([a8fa825](https://github.com/ublue-os/bluefin/commit/a8fa8255568bded6a32f6e249b2d6e0be6c2e028))
+* **bluefin:** set mutter debug kms to user by default ([#1263](https://github.com/ublue-os/bluefin/issues/1263)) ([18b7e67](https://github.com/ublue-os/bluefin/commit/18b7e67911c429c4b452a10ee201fa41ed0d7fcc))
+* **dx:** do not start ollama automatically ([#1281](https://github.com/ublue-os/bluefin/issues/1281)) ([faa9b14](https://github.com/ublue-os/bluefin/commit/faa9b144e7a7b9203fd26519f46738219599f649))
+* update search-light default appearance ([#1256](https://github.com/ublue-os/bluefin/issues/1256)) ([47bbaab](https://github.com/ublue-os/bluefin/commit/47bbaabf53207b6194bbebf72d330a5c4f7a0a9d))
+* Use slightly newer mediatek firmware due to confirmed issues wit… ([#1279](https://github.com/ublue-os/bluefin/issues/1279)) ([36b271b](https://github.com/ublue-os/bluefin/commit/36b271bbc6b1f7fe301bbf5b1850091f0e7ec555))
+
+
+### Reverts
+
+* "feat: Add back xwayland video bridge to all images" ([#1270](https://github.com/ublue-os/bluefin/issues/1270)) ([d91d5a2](https://github.com/ublue-os/bluefin/commit/d91d5a2e54f8dda763c39bab3b87388a67363fa3))
+
 ## [2.6.0](https://github.com/ublue-os/bluefin/compare/v2.5.0...v2.6.0) (2024-05-04)
 
 
